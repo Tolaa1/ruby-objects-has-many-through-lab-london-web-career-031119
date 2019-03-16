@@ -9,4 +9,5 @@ class Artist
  end
  def artist(name)
    @name = Artist.new("Jay-z")
+ end
 end
