@@ -12,4 +12,7 @@ class Artist
   def new_song(name, genre)
     new_song = @name.genre
   end
+  def songs
+    @@all.song.find.artist
+  end
 end
