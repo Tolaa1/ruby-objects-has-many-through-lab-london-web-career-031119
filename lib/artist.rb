@@ -9,4 +9,7 @@ class Artist
   def artist
     @@all
   end
+  def new_song(name, genre)
+    @name.genre
+  end
 end
