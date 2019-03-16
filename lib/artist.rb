@@ -7,7 +7,7 @@ class Artist
   @@all = []
   @@all << self
  end
- def artist(name)
+ def artist
    Artist.new("Jay-z")
  end
 end
