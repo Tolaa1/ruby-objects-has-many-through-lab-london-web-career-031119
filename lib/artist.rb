@@ -3,4 +3,5 @@ class Artist
   @@all = []
   def artist
     @@all << self
+  end
 end
