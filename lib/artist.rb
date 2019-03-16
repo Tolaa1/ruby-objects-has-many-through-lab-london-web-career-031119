@@ -5,6 +5,6 @@ class Artist
     @name = name
     @@all << self
   def artist
-    @@all 
+    @@all
   end
 end
