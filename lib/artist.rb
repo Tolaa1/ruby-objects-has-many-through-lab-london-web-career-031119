@@ -10,6 +10,6 @@ class Artist
     @@all
   end
   def new_song(name, genre)
-    @name.genre
+    new_song = @name.genre
   end
 end
