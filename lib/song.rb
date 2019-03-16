@@ -1,2 +1,3 @@
 class Song
-end 
+  attr_reader :name, :artist, genre
+end
