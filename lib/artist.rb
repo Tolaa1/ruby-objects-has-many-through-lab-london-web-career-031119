@@ -8,6 +8,6 @@ class Artist
   @@all << self
  end
  def artist(name)
-   @name = Artist.new("Jay-z")
+   Artist.new("Jay-z")
  end
 end
