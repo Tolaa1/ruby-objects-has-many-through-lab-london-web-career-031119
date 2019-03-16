@@ -4,6 +4,7 @@ class Artist
 def initialise(name)
   @name = name
   @@all = []
+  @@all << self
 end
 
 end
