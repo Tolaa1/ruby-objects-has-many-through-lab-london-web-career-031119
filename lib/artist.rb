@@ -3,8 +3,8 @@ class Artist
   @@all = []
   def initialise(name)
     @name = name
-    @@all
-  def artist
     @@all << self
+  def artist
+    @@all 
   end
 end
